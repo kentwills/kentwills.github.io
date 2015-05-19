@@ -7,6 +7,7 @@ SITENAME = u'Kent Wills'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['pdf','images']
 
 TIMEZONE = 'Europe/Paris'
 
@@ -19,15 +20,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'http://www.linkedin.com/in/rkentwills'),
+          ('github', 'http://github.com/kentwills'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -35,3 +30,4 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = 'pelican-bootstrap3'
+FAVICON = 'images/favicon.ico'
