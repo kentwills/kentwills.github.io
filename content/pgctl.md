@@ -1,5 +1,11 @@
-[Yelp Playground](https://github.com/Yelp/pgctl) ``pgctl``
------
+Title: Yelp Playgrounds (pgctl)
+Date: 2015-08-17 22:00
+Tags:
+Category: projects
+Slug: projects
+Author: Kent Wills
+
+[Github Project](https://github.com/Yelp/pgctl)
 
 ``pgctl`` is an MIT Licensed tool to manage developer “playgrounds”.
 
